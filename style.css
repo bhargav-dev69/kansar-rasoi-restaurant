@@ -225,3 +225,60 @@ body{
     box-shadow: 0 2px 15px rgba(0,0,0,0.1);
     object-fit: cover;
 }
+
+.contact-us{
+    padding: 5rem 0;
+    background-color: #f4f4f4;
+}
+
+.contact-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.contact-form h3 , .contact-info h3{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+.contact-item{
+    margin: 1rem 0;
+}
+
+.contact-item strong{
+    display: block;
+    margin-bottom: 0,5rem;
+    color: #2c3e50;
+}
+
+.form-group{
+    margin-bottom: 0.5rem;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+    border-color: #e74c3c;
+    outline: none;
+}
